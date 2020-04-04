@@ -1,11 +1,11 @@
 <idea-plugin>
-    <id>org.clock.test_gradle</id>
+    <id>clockWidget</id>
     <name>Clock widget</name>
-    <vendor email="" url="">Created for JB code challenge</vendor>
+    <vendor email="" url="">Created for JB code challenge by Alina Boshchenko</vendor>
 
     <description><![CDATA[
     Clock widget for IntelliJ IDEA<br>
-    Wwidget is displayed in the right bottom corner of the IDE window.</em>
+    Widget is displayed in the right bottom corner of the IDE window.</em>
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
