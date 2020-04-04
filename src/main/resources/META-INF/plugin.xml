@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>org.clock.test_gradle</id>
+    <name>Clock widget</name>
+    <vendor email="" url="">Created for JB code challenge</vendor>
+
+    <description><![CDATA[
+    Clock widget for IntelliJ IDEA<br>
+    Wwidget is displayed in the right bottom corner of the IDE window.</em>
+    ]]></description>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+    <project-components>
+        <component>
+            <implementation-class>clock.SetUp</implementation-class>
+            <loadForDefaultProject/>
+        </component>
+    </project-components>
+</idea-plugin>
