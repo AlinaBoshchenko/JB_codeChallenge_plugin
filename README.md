@@ -7,7 +7,7 @@ git clone https://github.com/AlinaBoshchenko/JB_codeChallenge_plugin.git
 
 cd JB_codeChallenge_plugin
 
-**./gradlew runIde ** — run a development IDE with the plugin installed.
+**./gradlew runIde** — run a development IDE with the plugin installed.
 
 **./gradlew buildPlugin** — build plugin and create an archive at build/distributions 
 
